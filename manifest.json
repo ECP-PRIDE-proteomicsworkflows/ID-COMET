@@ -1,0 +1,17 @@
+{
+  "applicationName": "ECP-PRIDE-ID-COMET",
+  "contactEmail": "walzer@ebi.ac.uk",
+  "about": "Workflow to identify MS2 from a PRIDE dataset with the Comet identification engine",
+  "version": "0.1",
+  "cloudProviders": [
+    {
+     "cloudProvider": "OSTACK",
+     "path": "ostack",
+     "inputs":[]
+    }
+  ],
+  "inputs": ["PRIDE_PXD", "ORGANISM_DB", "TOLERANCE_PPM", "FDR_LEVEL"],
+  "deploymentParameters": [],
+
+  "outputs": ["result_url"]
+}
